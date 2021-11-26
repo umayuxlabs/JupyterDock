@@ -1,0 +1,19 @@
+{
+  "name": "JupyterDock",
+  "productName": "JupyterDock",
+  "description": "Lunch Jupyter Lab with Docker",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Gustavo Arango",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "fix-path": "^4.0.0"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Jupyter Docker</title>
+    <script src="./vue.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./main-bootstrap.css">    
+    <link rel="stylesheet" href="./bootstrap.min.css">    
+    
+
+  </head>
+  <body class="">
+
+    <div id='app'>
+      <br>
+      <div id=''>
+
+        <!-- <div class="input-group mb-6"> -->
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Image</span>
+          </div>
+          <input type="url" name="image" id="image" value="gaarangoa/dsai:version-2.0.3_tf2.6.0_pt1.9.0" class='form-control'> <br>
+
+
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Port</span>
+          </div>
+          <input type='text' name="port" id="port" value="5100" class='form-control'>
+          
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Path</span>
+          </div>
+          <input type='text' name="volume" id="volume" value="/Volumes/drive/umayux/Genomics/UmayuxHealth" class='form-control'>
+
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Container Name</span>
+          </div>
+          <input type='text' name="name" id="name" value="dsai" class='form-control'>
+
+          <br>
+          <input class='btn btn-primary w-100' type="button" value="Connect" id="connect" >
+        <!-- </div> -->
+
+      </div>
+    </div>
+          
+    <br> <br>
+
+    <!-- <div class="accordion col-md-12" id="ProjectsGroup">
+      
+      <div v-for="item in Object.entries(items)" :key='item[0]' class="accordion-item">
+        
+        <h2 class="accordion-header" v-bind:id="'heading'+item[0].replace(/ /g,'_')">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" v-bind= "{'data-bs-target': '#collapse'+item[0].replace(/ /g,'_'), 'aria-controls':'collapse'+item[0].replace(/ /g,'_') }" aria-expanded="false">
+            {{item[0]}}
+          </button>
+        </h2>
+
+
+        <div v-bind:id="'collapse'+item[0].replace(/ /g,'_')" class="accordion-collapse collapse" v-bind = "{ 'aria-labelledby': 'heading'+item[0].replace(/ /g,'_') }" data-bs-parent="#ProjectsGroup">
+          <div class="col-md-12 accordion-body"> 
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>URL</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+            
+              <tbody id='session-list'>
+                <tr v-for="i in Object.values(item[1])" :key='i.session'>
+                  <td>{{i.session}}</td>
+                  <td> <input class='text-wrap bd-highlight' style="width: 20em;" v-bind:value='i.url'> </input></td>
+                  <td>
+                    <button class='btn btn-xs btn-outline-primary' type="button" v-on:click="run(i)">Open</button>
+                    <button class='btn btn-xs btn-outline-primary' type="button" v-on:click="remove(i)">Remove</button>
+                  </td>
+                </tr>
+              </tbody>
+            
+            </table>
+          </div>
+        </div>
+      
+      </div>
+    </div> -->
+  
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
