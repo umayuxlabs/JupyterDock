@@ -24,7 +24,7 @@ function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 500,
-    height: 500,
+    height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       webviewTag: true,
@@ -49,7 +49,6 @@ function createWindow () {
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 }
-
 
 // const menu = Menu.buildFromTemplate(template)
 // Menu.setApplicationMenu(menu)

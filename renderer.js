@@ -57,16 +57,11 @@ function updateButton() {
     const volume = document.querySelector('#volume').value;
     const port = document.querySelector('#port').value;
     const name = document.querySelector('#name').value;
-    
-    // console.log(volume, port, image, basepath)
-
-    // exec('docker ps ', (error, stdout, stderr) => {
-    //     console.log(stdout, error, stderr)
-    // })
+    const password = document.querySelector('#password').value;
 
     createMenuWindow(port, name);
-    
-    exec(`sh ${basepath}/session.sh ${volume} ${port} ${image} ${basepath} ${name}`, (error, stdout, stderr) => {
+
+    exec(`sh ${basepath}/server/session.sh ${volume} ${port} ${image} ${basepath} ${name} ${password}`, (error, stdout, stderr) => {
         
         if (error) {
             alert(`error: ${error.message}`);

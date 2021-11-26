@@ -3,6 +3,7 @@ port=$2
 image=$3
 basepath=$4
 container_name=$5
+password=$6
 
 docker run --rm \
     -v $volume:/src/ \
@@ -10,4 +11,9 @@ docker run --rm \
     -p $port:$port \
     --name $container_name \
     $image \
-    /bin/bash /jpt/jupyter.sh $port $rootdir
+    /bin/bash /jpt/server/jupyter.sh $port $password
+
+# docker start \
+#     $container_name \
+#     /bin/bash /jpt/server/jupyter.sh $port $password
+

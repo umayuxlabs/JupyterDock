@@ -1,10 +1,12 @@
 # Docker Jupyter
 
-We love jupyter lab, and the desktop version is amazing. However, we normally customize our libraries using docker images. So, We have created Docker Jupyter, an Electron APP for launching Jupyter lab instances as a desktop app.
+We love jupyter lab, and the desktop version is amazing. However, we normally customize our libraries using docker images. So, We have created JupyterDock, an Electron APP for launching Jupyter lab instances as a desktop app running under docker containers.
 
-All you need to have is an image with your dependencies and Jupyter Lab installed. Then, just use the GUI to generate a Jupyter Lab APP.
+All you need to have is a docker image with your dependencies installed (don't forget Jupyter Lab). Then, just use the GUI to generate a Jupyter Lab APP.
 
-For the moment we have JupyterDock <strong> only available on MAC </strong>
+For the moment we have JupyterDock <strong> only available for MAC OS </strong>
+
+## Usage
 
 ## Build the app
 

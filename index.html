@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <title>Jupyter Docker</title>
+    <title>JupyterDock</title>
     <script src="./vue.js"></script>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./main-bootstrap.css">    
@@ -38,6 +38,11 @@
             <span class="input-group-text" id="basic-addon1">Container Name</span>
           </div>
           <input type='text' name="name" id="name" value="dsai" class='form-control'>
+
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Password</span>
+          </div>
+          <input type='text' name="name" id="password" value="root" class='form-control'>
 
           <br>
           <input class='btn btn-primary w-100' type="button" value="Connect" id="connect" >
