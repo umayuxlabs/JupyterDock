@@ -19,5 +19,9 @@ For the moment we have JupyterDock only available for MAC OS
 3. Set the docker container name and the exposed port (if you are running multiple containers you need to setup a different port)
 4. Define a password for your jupyter lab instance. 
 
+### Keep in mind
+1. The first time it will take a while to launch your instance as docker has to download the image from docker hub. 
+2. Running the container may take a couple of minutes. Just wait a little bit!
+
 ![img](./jupyterdock.svg)
 
