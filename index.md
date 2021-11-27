@@ -22,6 +22,3 @@ By default an image with several data science tools and jupyter lab installed is
 4. Define a password for your jupyter lab instance. 
 
 ![img](./session.png)
-
-### Your jupyter lab is alive
-![img](./jlab.png)
