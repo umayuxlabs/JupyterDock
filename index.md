@@ -6,11 +6,11 @@ All you need to have is a docker image with your dependencies installed (don't f
 
 For the moment we have JupyterDock only available for MAC OS
 
-# Requirements
+## Requirements
 * Make sure to have installed docker in your computer.
 * Make sure to have installed jupyter lab in your docker image. 
 
-### launch the app
+## Launch JupyterDock
 ![img](./app.png)
 
 ### Set your container
