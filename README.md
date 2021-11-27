@@ -8,6 +8,8 @@ For the moment we have JupyterDock <strong> only available for MAC OS </strong>
 
 ## Usage
 
+see documentation <a href="https://umayuxlabs.github.io/JupyterDock/">here</a>
+
 ## Build the app
 
 ```bash
