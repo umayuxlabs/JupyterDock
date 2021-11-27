@@ -11,6 +11,7 @@ For the moment we have JupyterDock only available for MAC OS
 1. Make sure to have installed docker in your computer.
 2. Make sure to have installed jupyter lab in your docker image. 
 3. Download <a href="https://github.com/umayuxlabs/JupyterDock/raw/master/release/JupyterDock.zip"> JupyterDock app </a> 
+  * If the app does not work. Follow the instructions in the main <a href="https://github.com/umayuxlabs/JupyterDock/tree/master">repository</a> to build the app with electron. 
 
 
 ### Launch JupyterDock
