@@ -20,3 +20,4 @@ For the moment we have JupyterDock only available for MAC OS
 4. Define a password for your jupyter lab instance. 
 
 ![img](./jupyterdock.svg)
+
