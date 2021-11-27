@@ -7,10 +7,13 @@ All you need to have is a docker image with your dependencies installed (don't f
 For the moment we have JupyterDock only available for MAC OS
 
 ### Requirements
-* Make sure to have installed docker in your computer.
-* Make sure to have installed jupyter lab in your docker image. 
+
+1. Make sure to have installed docker in your computer.
+2. Make sure to have installed jupyter lab in your docker image. 
+3. Download <a href="https://github.com/umayuxlabs/JupyterDock/raw/master/release/JupyterDock.zip"> JupyterDock app </a>
 
 By default an image with several data science tools and jupyter lab installed is available. 
+
 
 ### Launch JupyterDock
 1. Before you start a jupyter instance, you need to select the image from docker hub with your customized environment.
