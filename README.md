@@ -19,6 +19,8 @@ npm install
 # MAC OS
 electron-packager . --overwrite --platform=darwin --arch=x64  --prune=true --out=release-builds --icon Curse.icns
 
+electron-installer-dmg ./release-builds/JupyterDock-darwin-x64/JupyterDock.app JupyterDock --icon Curse.icns --out ./release/ --overwrite
+
 # Windows
 electron-packager . electron-tutorial-app --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName="Session Manager"
 
