@@ -6,6 +6,8 @@ All you need to have is a docker image with your dependencies installed (don't f
 
 For the moment we have JupyterDock only available for MAC OS
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ### Requirements
 
 1. Make sure to have installed docker in your computer.
