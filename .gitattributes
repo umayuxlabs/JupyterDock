@@ -1,1 +1,1 @@
-*.dmg filter=lfs diff=lfs merge=lfs -text
+desktop_apps/JupyterDock.dmg filter=lfs diff=lfs merge=lfs -text
