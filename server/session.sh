@@ -5,9 +5,12 @@ basepath=$4
 container_name=$5
 password=$6
 
+mkdir $HOME/.JupyterDock/
+cp -r $basepath/server $HOME/.JupyterDock/
+
 docker run --rm \
     -v $volume:/src/ \
-    -v $basepath:/jpt/ \
+    -v $HOME/.JupyterDock/:/jpt/ \
     -p $port:$port \
     --name $container_name \
     $image \
